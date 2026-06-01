@@ -1,0 +1,23 @@
+/* Quickly setting up "boilerplate" settings for CSS. I will come back to fix/tweak anything as time goes on but for now I want to get running */
+
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img, picture, svg {
+    max-width: 100%;
+    display: block;
+}
+
+/* Ending of basic settings*/
+
