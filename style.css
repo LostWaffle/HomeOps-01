@@ -5,19 +5,69 @@
 *::after {
     box-sizing: border-box;
 }
-
 * {
     margin: 0;
 }
-
 a {
     text-decoration: none;
+    color: white;
 }
-
 img, picture, svg {
     max-width: 100%;
     display: block;
 }
-
 /* Ending of basic settings*/
 
+
+body { 
+    background-color: #121212;
+    color: white;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    padding: 15px 20px;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #121212;
+    padding: 15px 30px;
+}
+
+.card {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.server-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.server-header {
+    padding: 15px 30px;
+    gap: 20px;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+}
+
+.server-status {
+    
+    gap: 20px;
+    padding: 15px 20px;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+}
